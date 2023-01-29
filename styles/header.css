@@ -1,0 +1,39 @@
+
+
+
+.main-header{
+    width: 100%;
+    background-color: #252222;
+    padding: 40px;
+    padding-left: 9%;
+}
+
+.main-header h2{
+    display: inline;
+    font-size: xx-large;
+    color: goldenrod;
+}
+
+.main-header a p{
+    transition: .4s;
+    font-size: larger;
+    margin-top : 5px;
+    display: inline;
+    float: right;
+    color: goldenrod;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+.main-header a p:hover{
+    transition: .4s;
+    font-size: xx-large;
+    margin-top : 0px;
+    display: inline;
+    float: right;
+    color: goldenrod;
+    margin-left: 45px;
+    margin-bottom: 0px;
+}
+
+

@@ -1,0 +1,80 @@
+div.Body{
+    margin: auto;
+    margin-top: 130px;
+    width: 100%;
+}
+
+div.WhiteText{
+    color: goldenrod;
+}
+
+div.home-paragraph{
+
+    background-color: rgba(34, 34, 34, 0.85);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  width: 75%;
+  min-width: 350px;
+  margin: auto;
+  margin-bottom: 95px;
+  border-radius: 8px;
+  align-self: center;
+  align-items: center;
+    padding: 35px;
+    padding-bottom: 50px;
+}
+
+
+
+
+a{
+    color: goldenrod;
+}
+
+::-webkit-scrollbar {
+    width: .7em;
+    background-color: #36393e;
+}
+
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 0px ;
+  background-color: #1e2124;
+  border-radius: 8px;
+}
+
+h6{
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+p.letter{
+    font-size: 14px;
+    transition: 4s;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+
+p.letter:hover{
+    transition: 0.1s;
+    color: rgb(204, 27, 71);
+}
+
+p.bounce{
+    transition: 2s;
+    transform: scale(1);
+}
+
+p.bounce:hover{
+    display: inline-block;
+    transition: 0.05s;
+    transform: scale(1.45,1.45);
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
